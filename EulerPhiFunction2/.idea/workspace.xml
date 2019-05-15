@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="706bfdc4-925d-49cb-ad5a-c3cd53edef7e" name="Default Changelist" comment="" />
+    <list default="true" id="706bfdc4-925d-49cb-ad5a-c3cd53edef7e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,15 +15,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="122">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="docComment;class#Main#0" />
-                <element signature="docComment;method#main#0;class#Main#0" />
-                <element signature="method#main#0;class#Main#0" />
                 <element signature="docComment;method#phiEulero#0;class#Main#0" />
                 <element signature="method#phiEulero#0;class#Main#0" />
                 <element signature="docComment;method#isPrimo#0;class#Main#0" />
@@ -35,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NumbersExp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
@@ -67,12 +69,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/numeri.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/NumbersExp.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="9" />
     <option name="y" value="208" />
     <option name="width" value="1280" />
@@ -107,7 +109,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557947189965" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557948413299" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -151,18 +153,17 @@
       <updated>1557926655071</updated>
       <workItem from="1557926659744" duration="2985000" />
       <workItem from="1557941040232" duration="776000" />
-      <workItem from="1557945648873" duration="1445000" />
+      <workItem from="1557945648873" duration="1939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5206000" />
+    <option name="totallyTimeSpent" value="5700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="9" y="208" width="1280" height="752" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -233,28 +234,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../eulero/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/numeri.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="docComment;class#Main#0" />
-            <element signature="docComment;method#main#0;class#Main#0" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="docComment;method#phiEulero#0;class#Main#0" />
-            <element signature="method#phiEulero#0;class#Main#0" />
-            <element signature="docComment;method#isPrimo#0;class#Main#0" />
-            <element signature="method#isPrimo#0;class#Main#0" />
-            <element signature="docComment;method#primeFactors#0;class#Main#0" />
-            <element signature="method#primeFactors#0;class#Main#0" />
-            <element signature="docComment;method#sieveOfEratosthenes#0;class#Main#0" />
-            <element signature="method#sieveOfEratosthenes#0;class#Main#0" />
-            <element signature="docComment;method#isPowOfaPrimeNumber#0;class#Main#0" />
-            <element signature="method#isPowOfaPrimeNumber#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NumbersExp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -265,6 +244,26 @@
             <element signature="method#NumbersExp#0;class#NumbersExp#0" />
             <element signature="docComment;method#getNumber#0;class#NumbersExp#0" />
             <element signature="docComment;method#getExp#0;class#NumbersExp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="docComment;class#Main#0" />
+            <element signature="docComment;method#phiEulero#0;class#Main#0" />
+            <element signature="method#phiEulero#0;class#Main#0" />
+            <element signature="docComment;method#isPrimo#0;class#Main#0" />
+            <element signature="method#isPrimo#0;class#Main#0" />
+            <element signature="docComment;method#primeFactors#0;class#Main#0" />
+            <element signature="method#primeFactors#0;class#Main#0" />
+            <element signature="docComment;method#sieveOfEratosthenes#0;class#Main#0" />
+            <element signature="method#sieveOfEratosthenes#0;class#Main#0" />
+            <element signature="docComment;method#isPowOfaPrimeNumber#0;class#Main#0" />
+            <element signature="method#isPowOfaPrimeNumber#0;class#Main#0" />
           </folding>
         </state>
       </provider>

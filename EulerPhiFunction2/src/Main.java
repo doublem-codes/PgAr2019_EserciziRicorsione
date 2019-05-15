@@ -13,14 +13,17 @@ public class Main {
      * function main of recursion calculate of phi eulero
      */
     public static void main(String[] args) {
+        int numbers= it.unibs.fp.mylib.InputDati.leggiIntero("Number: ");//input number to calculate phi of eulero
         do {
+
             arrayListNumbersWhitExp.clear();//clear all arraylist
             arrayListPrimeFactors.clear();
             arrayListPrimeNumber.clear();
-            int numbers= it.unibs.fp.mylib.InputDati.leggiIntero("Number: ");//input number to calculate phi of eulero
             sieveOfEratosthenes(numbers);// generate prime numbers less than input numbers
             System.out.println(phiEulero(numbers));
-        }while (true);
+            System.out.println("for exit insert 0");
+             numbers= it.unibs.fp.mylib.InputDati.leggiIntero("Number: ");//input number to calculate phi of eulero
+        }while (numbers != 0);
 
     }
 
