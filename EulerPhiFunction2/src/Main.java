@@ -36,7 +36,7 @@ public class Main {
         primeFactors(n);
         if(n == 1) {// n is one
             return 1;
-        }else if(isPrimo(n)){//n is a prime number
+        }else if(isPrime(n)){//n is a prime number
             return n-1;
         }else if(arrayListPrimeFactors.size() == 2) { //n is the multiply of two prime number to improve velocity
             return (((arrayListPrimeFactors.get(0)) - 1) * ((arrayListPrimeFactors.get(1) - 1)));
@@ -45,13 +45,13 @@ public class Main {
         }else{
             NumbersExp number;
             int multiply = arrayListPrimeFactors.get(0);// assignment  new value
-            int count = 1;//initialization count at 1
+            int count = 1;//initialization count at 1 (exponent)
             for(int i=1; i<arrayListPrimeFactors.size();i++){//loop to calculate exp of numbers of factors prime
                 if(multiply==arrayListPrimeFactors.get(i)){// if is equals increment exp
                     count++;
                 }else{// if is not equals add exponent and number at  arrayListNumbersWhitExp
                     number = new NumbersExp(multiply,count);
-                    arrayListNumbersWhitExp .add(number );
+                    arrayListNumbersWhitExp.add(number);
                     multiply = arrayListPrimeFactors.get(i);// assignment of new value
                     count = 1;//reset count
                 }
@@ -67,12 +67,12 @@ public class Main {
     }
 
     /**
-     * method to check if numbers is prime
+     * method to check if numbers are prime
      * @param m number in input
      * @return true if is prime
      *          false if isn't prime
      */
-    private static boolean isPrimo(int m){
+    private static boolean isPrime(int m){
         int num=m-1;
         do{//loop to check the condition of prime numbers
             if(m%num == 0){//if the module is 0 -> number is not prime
@@ -115,7 +115,7 @@ public class Main {
     }
 
     /**
-     * method to generate prime numbers less than input number n
+     * method to generate prime numbers until input number n
      * @param n input number
      */
     private static void sieveOfEratosthenes(int n) {
@@ -146,11 +146,11 @@ public class Main {
     }
 
     /**
-     * method to check number isn't pow of prime numbers
+     * method to check if a prime number pow an exponent give me the input number
      *
      * @param n input number to check
-     * @return true if is pow of prime numbers
-     *         false if isn't pow of prime numbers
+     * @return true if is pow of a prime numbers
+     *         false if isn't pow of a prime numbers
      */
     private static boolean isPowOfaPrimeNumber(int n){
         for(int i=0; i<arrayListPrimeNumber.size();){//loop whit increment in is body
